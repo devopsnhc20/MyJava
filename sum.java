@@ -8,10 +8,10 @@ public class sum
         int a,b,sum;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number:");
-        b = sc.nextInt();
+        b = Integer.parseInt(args[0]);
         
         System.out.println("Enter Second Number:");
-        a = sc.nextInt();
+        a = Integer.parseInt(args[1]);
         
         sc.close();
         sum = a+b;
