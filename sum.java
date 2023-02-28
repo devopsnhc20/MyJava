@@ -1,5 +1,5 @@
 //This is for Jenkins
-import java.util.Scanner;
+import java.util.*;
 public class sum
  {
 
